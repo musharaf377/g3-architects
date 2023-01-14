@@ -265,3 +265,26 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+/*=======================
+    Sponsors Area Style 
+ ========================*/ 
+
+ #sponsors-area{
+    padding-bottom: 130px;
+ }
+ .section-heading.center{
+    margin:auto;
+    text-align: center;
+ }
+
+ .sponsors-item-wrapper {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sponsors-item-wrapper img{
+    width: auto;
+    filter: grayscale(1);
+}
