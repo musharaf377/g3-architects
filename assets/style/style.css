@@ -235,7 +235,7 @@ body{
  ========================*/ 
 
 #process-area {
-    background-image: url(/assets/image/process.jpg);
+    background-image: url(../image/process.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
