@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/*=======================
+    Common Style Here
+ ========================*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #FF900E;
+    --black: #131313;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color:#727272;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 15px;
+    margin: auto;
+}
+/* primary button */
+.primary-btn {
+    padding: 20px 24px;
+    background: var(--primary);
+    display: inline-block;
+    margin-top: 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*=======================
+    Header Area Style 
+ ========================*/
+
+ #header-area {
+    background-color: rgba(255, 143, 14, 0.10) ;
+    padding: 45px 0;
+ }
+ 
+ /* navbar style */
+ .nav-bar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .logo {
+     font-size: 45px;
+     color: var(--black);
+     font-weight: 700;
+     line-height: 1em;
+ }
+ 
+ .nav-menu ul {
+     display: flex;
+     align-items: center;
+     gap: 76px;
+ }
+ 
+ .nav-menu ul li {
+     list-style: none;
+     font-size: 18px;
+     font-weight: 500;
+     color: #424242;
+ }
+
+ /* hero-area style */
+ .hero-area{
+    padding: 116px 0 0;
+ }
+
+ .hero-content {
+    max-width: 862px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--black);
+    padding-bottom: 35px;
+}
+
+.hero-banner img{
+    width: 100%;
+}
+
