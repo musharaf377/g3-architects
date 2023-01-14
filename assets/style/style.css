@@ -147,3 +147,72 @@ body{
 .team-content p{
     padding: 24px 0 32px;
 }
+
+/* Feature area css */
+
+.feature-wrapper {
+    display: flex;
+    gap: 135px;
+}
+
+.feature-content{
+    width: 44%;
+}
+.feature-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: var(--black);
+    border-left: 5px solid var(--primary);
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.feature-items{
+    margin-top: 30px;
+}
+
+.feature-single-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.feature-single-item h3{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: var(--black);
+}
+
+.feature-image{
+    position: relative;
+}
+.feature-image img{
+    width: 100%;
+    padding-bottom: 77px;
+}
+
+.experience-box{
+    background-color: var(--primary);
+    color: #fff;
+    padding: 45px 42px;
+}
+
+.experience-box h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience-box p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.experience-box{
+    position: absolute;
+    bottom: 0;
+    left: -92px;
+}
