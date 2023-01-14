@@ -17,6 +17,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+    line-height: 1.5em;
     color:#727272;
 }
 
@@ -270,13 +271,13 @@ body{
     Sponsors Area Style 
  ========================*/ 
 
- #sponsors-area{
+#sponsors-area{
     padding-bottom: 130px;
- }
+}
  .section-heading.center{
     margin:auto;
     text-align: center;
- }
+}
 
  .sponsors-item-wrapper {
     display:flex;
@@ -288,3 +289,22 @@ body{
     width: auto;
     filter: grayscale(1);
 }
+
+/*=======================
+    Footer Area Style 
+ ========================*/ 
+
+.footer-content {
+    background: #FFF4E7;
+    text-align: center;
+    padding: 39px;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+/* ===============================================
+    Responsive Style Start
+   ===============================================*/
+
+   
