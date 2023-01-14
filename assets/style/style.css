@@ -54,11 +54,12 @@ body{
      justify-content: space-between;
  }
  
- .logo {
+ .logo  a{
      font-size: 45px;
      color: var(--black);
      font-weight: 700;
      line-height: 1em;
+     text-decoration: none;
  }
  
  .nav-menu ul {
@@ -69,9 +70,18 @@ body{
  
  .nav-menu ul li {
      list-style: none;
-     font-size: 18px;
-     font-weight: 500;
-     color: #424242;
+ }
+
+ .nav-menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    text-decoration: none;
+    transition: color 0.5s;
+ }
+
+ .nav-menu ul li a:hover{
+    color: var(--primary)
  }
 
  /* hero-area style */
@@ -97,3 +107,43 @@ body{
     width: 100%;
 }
 
+/*=======================
+    Team Area Style 
+ ========================*/ 
+
+#team-area{
+    padding: 85px 0 130px;
+}
+
+.team-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.team-content h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.3em;
+    color:#727272;
+}
+
+.team-bold-title{
+    color: var(--black);
+    font-weight: 700;
+}
+
+.team-orange-title{
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.team-content p{
+    padding: 24px 0 32px;
+}
