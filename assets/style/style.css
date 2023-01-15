@@ -411,7 +411,7 @@ body{
     .feature-wrapper {
         grid-column-gap: 50px;
     }
-    
+
     .feature-title {
         padding: 0 45px 0 20px;
     }
@@ -613,7 +613,11 @@ body{
         gap: 25px;
     }
 
-    .hero-content h1, .team-content h2, .feature-title,.experience-box h2, .section-heading h3  {
+    .hero-content h1,
+    .team-content h2,
+    .feature-title,
+    .experience-box h2,
+    .section-heading h3  {
         font-size: 33px;
     }
 
