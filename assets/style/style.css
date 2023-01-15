@@ -463,10 +463,15 @@ body{
 
     .fact-items {
         flex-wrap: wrap;
+        gap: 25px;
     }
 
     .fact-single-item {
         width: 47%;
+    }
+
+    .fact-single-item:hover {
+        transform:none;
     }
 
     #sponsors-area {
