@@ -120,7 +120,7 @@ body{
 
 .team-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.3fr 1fr;
     grid-column-gap: 76px;
     align-items: center;
 }
@@ -133,6 +133,10 @@ body{
 
 .team-image img{
     width: 100%;
+}
+
+.team-content {
+    padding-right: 50px;
 }
 
 .team-content h2{
@@ -172,7 +176,7 @@ body{
     line-height: 1.2em;
     color: var(--black);
     border-left: 5px solid var(--primary);
-    padding-left: 20px;
+    padding: 0 100px 0 20px;
     margin-bottom: 24px;
 }
 
@@ -281,7 +285,7 @@ body{
     text-transform: capitalize;
     background: #ff7720;
     font-size: 20px;
-    padding: 5px 15px;
+    padding: 15px 15px;
     position: relative;
     border-radius: 5px;
 }
@@ -291,7 +295,7 @@ body{
     position: absolute;
     right: 0;
     top: 0;
-    padding: 5px 18px;
+    padding: 15px 18px;
 }
 
 .single-process P {
@@ -333,6 +337,11 @@ body{
     border-radius: 8px;
     width: 25%;
     text-align: center;
+    transition: transform .5s;
+}
+
+.fact-single-item:hover {
+    transform: translateY(-20px) scale(1.1);
 }
 
 .fact-single-item h2 {
