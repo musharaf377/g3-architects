@@ -373,6 +373,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 35px;
 }
 
 .sponsors-item-wrapper img{
@@ -448,6 +449,11 @@ body{
     .team-wrapper {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 60px;
+    }
+
+    .feature-image img {
+        height: 777px;
+        object-fit: cover;
     }
 
     .experience-box {
@@ -530,6 +536,11 @@ body{
     .feature-title {
         font-size: 35px;
         padding: 0 0px 0 20px;
+    }
+
+    .feature-image img {
+        height: auto;
+        object-fit: cover;
     }
 
     .experience-box {
